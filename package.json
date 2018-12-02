@@ -7,8 +7,8 @@
   "author": "Yao Bin Then <alvinthen890703@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "firebase-admin": "^5.8.1",
-    "gatsby-cli": "^1.1.58"
+    "firebase-admin": "^6.3.0",
+    "gatsby-cli": "^2.4.6"
   },
   "files": [
     "gatsby-node.js",
