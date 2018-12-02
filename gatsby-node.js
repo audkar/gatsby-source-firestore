@@ -23,6 +23,9 @@ exports.sourceNodes = async (
 
   const db = firebase.firestore();
 
+  const settings = { timestampsInSnapshots: true }
+  db.settings(settings)
+
   const { createNode, createNodeField } = boundActionCreators;
 
   const promises = types.map(
